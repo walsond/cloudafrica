@@ -1,0 +1,74 @@
+{
+  "appPageId" : "bd7919d5-d43c-460b-b76e-38d17804caf0",
+  "componentName" : "siteforce:sldsThreeCol444Layout",
+  "dataProviders" : [ ],
+  "id" : "e097409b-9446-4996-baae-5dd37f355a73",
+  "label" : "Home",
+  "regions" : [ {
+    "components" : [ {
+      "componentAttributes" : {
+        "maxWidth" : 100,
+        "overlayColor" : "rgba(0,0,0,0.6)",
+        "overlayHoverColor" : "",
+        "radius" : 0,
+        "showTitle" : true,
+        "textAlignment" : "center",
+        "textBgColor" : "rgba(0,0,0,0)",
+        "textBgHoverColor" : "rgba(0,0,0,0)",
+        "textColor" : "",
+        "textHoverColor" : "",
+        "textPosition" : "center center",
+        "title" : "This page validates South African Id and List of Holidays"
+      },
+      "componentName" : "forceTopic:featuredTopics",
+      "id" : "0054ecfb-53a1-4644-b041-a76bcb52935b",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    }, {
+      "componentAttributes" : { },
+      "componentName" : "c:search",
+      "id" : "1767e0d1-f901-47bc-ad91-e9d15e31a856",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "3e2b0edc-29fe-4103-896e-3fbb0db31a78",
+    "regionName" : "header",
+    "type" : "region"
+  }, {
+    "id" : "26dbc224-3031-4820-acd5-5480fc9b6701",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "id" : "3c0b87cb-5fd3-41d8-bb75-f6f7e80cb46f",
+    "regionName" : "sidebar",
+    "type" : "region"
+  }, {
+    "id" : "014715a9-15b2-476f-bfaf-66e683ab7ad6",
+    "regionName" : "sidebarAlt",
+    "type" : "region"
+  }, {
+    "id" : "3cee0f54-b1b3-4bf3-a5f2-1546bf3feb51",
+    "regionName" : "footer",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "customHeadTags" : "",
+        "description" : "",
+        "title" : "Home"
+      },
+      "componentName" : "forceCommunity:seoAssistant",
+      "id" : "632bde5e-eb81-459e-9e14-198c3382f0e3",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "f1d756d0-2fb9-4aa0-888d-0d5465df313e",
+    "regionName" : "sfdcHiddenRegion",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Home",
+  "type" : "view",
+  "viewType" : "home"
+}

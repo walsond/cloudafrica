@@ -1,0 +1,32 @@
+<template>
+    <div class="slds-form-element__row">
+        <div class="slds-size_1-of-2">
+                <lightning-input maxlength="13" type="text" label="Enter your South African ID" onchange={handleIdChange} message-when-pattern-mismatch="Invalid South African Id" pattern="(((\d{2}((0[13578]|1[02])(0[1-9]|[12]\d|3[01])|(0[13456789]|1[012])(0[1-9]|[12]\d|30)|02(0[1-9]|1\d|2[0-8])))|([02468][048]|[13579][26])0229))(( |-)(\d{4})( |-)(\d{3})|(\d{7}))"></lightning-input>
+        </div>
+        <div class="slds-size_1-of-2">
+            <lightning-button label="Search" onclick={handleClick} disabled={disableSearch}></lightning-button>
+        </div>
+    </div>
+    <div if:true={tablevisible}>
+        <div class="slds-form-element__row">
+            <div class="slds-size_1-of-2">&nbsp;</div>
+            <div class="slds-size_1-of-2">&nbsp;</div>
+        </div>
+        <div class="slds-form-element__row">
+            <div class="slds-size_1-of-2"><p>List of African Holidays</p></div>
+            <div class="slds-size_1-of-2">&nbsp;</div>
+        </div>
+        <div class="slds-form-element__row">
+            <div class="slds-size_1-of-2">
+                <div style="height: 300px;">
+                    <lightning-datatable
+                            key-field="name"
+                            data={lstholiday}
+                            columns={columns}>
+                    </lightning-datatable>
+                </div>
+            </div>
+            <div class="slds-size_1-of-2">&nbsp;</div>
+        </div>
+    </div>
+</template>
